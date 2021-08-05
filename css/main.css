@@ -243,6 +243,13 @@ tr th
 	}
 }
 @media screen and (max-width: 768px) {
+	.twodiv {
+
+		margin-top: 6%;
+	}
+	.coin img {
+		margin-left: -1px!important;
+	}
   #menu{
     text-align: center;
        outline: none;
@@ -301,8 +308,16 @@ tr th
 		margin-left: 26%;
 		margin-top: 7%;
 	}
+	.coin {
+
+		margin-top: 100px;
+	}
+
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+	.col-md-auto.logo {
+		padding-left: 1px;
+	}
 	.nav-link {
 		display: block;
 
@@ -314,7 +329,14 @@ tr th
 		font-size: 13px!important;
 	}
 	.twodiv {
-	
+
 		margin-left: 12%;
+	}
+}
+@media screen and (max-width: 560px) {
+
+	.container {
+		padding-right: 25px!important;
+		padding-left: 25px!important;
 	}
 }
