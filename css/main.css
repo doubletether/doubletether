@@ -298,3 +298,15 @@ tr th
  	font-size: 60px;
  }
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+	.nav-link {
+		display: block;
+
+		padding: 8px!important;
+	}
+}
+@media screen and (max-width: 340px) {
+	.swal2-footer{
+		font-size: 13px!important;
+	}
+}
