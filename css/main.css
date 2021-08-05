@@ -297,6 +297,10 @@ tr th
  .big-w{
  	font-size: 60px;
  }
+	.twodiv {
+		margin-left: 26%;
+		margin-top: 7%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	.nav-link {
@@ -308,5 +312,9 @@ tr th
 @media screen and (max-width: 340px) {
 	.swal2-footer{
 		font-size: 13px!important;
+	}
+	.twodiv {
+	
+		margin-left: 12%;
 	}
 }
