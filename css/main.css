@@ -34,7 +34,7 @@ body{
 	margin-top: 203px;
 }
 .coin img{
-	margin-left: 1px;
+	margin-left: 30px;
 }
 .big-w span{
 	color:#ffffff;
@@ -219,6 +219,14 @@ tr th
 	width: 100%;height: 125px;background: #ffb724;display: block;margin-left: 15px
 }
 @media screen and (max-width: 768px) {
+	.amount{
+		font-size: 20px!important;
+		margin-left: 1px!important;
+	}
+	.addressustd{
+		padding-right: 0px!important;
+		padding-left: 0px!important;
+	}
 	.addressBTC{
 		padding-right: 0!important;
 		padding-left: 0!important;
@@ -243,6 +251,7 @@ tr th
 	}
 }
 @media screen and (max-width: 768px) {
+
 	.twodiv {
 
 		margin-top: 6%;
@@ -292,7 +301,7 @@ tr th
  }
 
 }
-@media (min-width: 768px) and (max-width: 992px) { 
+@media (min-width: 768px) and (max-width: 992px) {
 #rectan{
 	margin-left: -20px;
  }
@@ -340,3 +349,4 @@ tr th
 		padding-left: 25px!important;
 	}
 }
+
